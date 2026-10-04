@@ -1,0 +1,12 @@
+.DS_Store
+*.log
+DerivedData/
+.research/
+*.xcuserstate
+xcuserdata/
+.supabase/
+supabase/.temp/
+AppStore/Screenshots/
+/Venture/Resources/Models/LocalLLM/gemma-4-E2B-it-Q4_0.gguf
+/Venture/Resources/Models/LocalLLM/smollm2-360m-instruct-q4_k_m.gguf
+*.dSYM/

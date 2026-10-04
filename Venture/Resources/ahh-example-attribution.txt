@@ -1,0 +1,13 @@
+Venture's ahh example contains a real sustained vowel recording, not model output or user measurement.
+
+Source: VOICED Database v1.0.0, public record voice100.
+https://physionet.org/content/voiced/1.0.0/
+https://physionet.org/files/voiced/1.0.0/voice100.txt
+
+Creators: Ugo Cesari, Giuseppe De Pietro, Elio Marciano, Ciro Niri, Giovanna Sannino, Laura Verde.
+Citation: U. Cesari et al., A new database of healthy and pathological voices, Computers & Electrical Engineering 68 (2018), 310–321. https://doi.org/10.1016/j.compeleceng.2018.03.008
+Dataset DOI: https://doi.org/10.13026/C25Q2N
+License: Open Data Commons Attribution License v1.0.
+https://opendatacommons.org/licenses/by/1-0/
+
+Changes: converted float samples to mono PCM WAV, normalized playback gain, padded the 4.76-second source with trailing silence to exactly 5 seconds. No pitch alteration. No personal metadata included in the app. This asset is for demonstration only and is excluded from sensor measurements.

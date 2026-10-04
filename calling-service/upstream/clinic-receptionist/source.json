@@ -1,0 +1,24 @@
+{
+  "repository": "https://github.com/mohamedabdelaty74/AI-clinic-receptionist",
+  "commit": "a2e59eeef0438c83c7cecdc02280d3adfacf8670",
+  "license": null,
+  "vendored_source": false,
+  "inspected_paths": [
+    "app/services/llm_brain.py",
+    "app/services/knowledge_base.py",
+    "app/services/call_handler.py",
+    "app/services/demo_handler.py",
+    "app/services/tts_service.py",
+    "app/services/call_logger.py",
+    "app/config/settings.py",
+    "app/main.py",
+    "requirements.txt"
+  ],
+  "adapted_patterns": [
+    "language matching and concise voice replies",
+    "async Claude Messages API request",
+    "bounded tool-result conversation continuation",
+    "request-local context in place of clinic booking and knowledge tools",
+    "disclosed outbound appointment opening grounded in supplied goal and context"
+  ]
+}

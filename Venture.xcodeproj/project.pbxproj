@@ -1,0 +1,1135 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02904872BBB1A08834CD7F0C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F7751DA656F737BA705CABD /* CoreFoundation.framework */; };
+		02E52ECBB900445A00A8A95E /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57497463E883A06A5E817FDE /* AuthenticationView.swift */; };
+		0313FA5184BD94FCCD8E1346 /* VentureSimpleScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6178476FFD30A80BDADE2647 /* VentureSimpleScanView.swift */; };
+		0465F09C9422909EA2996172 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC2727624D462124927C08B /* SettingsView.swift */; };
+		0789E413C00DC321D389A6CD /* VentureBrandMarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FAC6D0B305A9372FEB3328 /* VentureBrandMarks.swift */; };
+		0E77D03BDCB79DACBDF2D16D /* BundledLlamaEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB6E72660EE14E503AEFA10 /* BundledLlamaEngine.swift */; };
+		0E7A77CDCC7126E0907F69CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E023B3C1CDF03FEC29DBDD /* Foundation.framework */; };
+		11B3BAFEC3F66F2BF6BFDB23 /* CognitiveSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FEB7B60345D100F0F40773 /* CognitiveSnapshot.swift */; };
+		19449FFA7F88D9A41FB6E2A3 /* BundledLlamaEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569EC07D9F246A1DD760FCC9 /* BundledLlamaEngineTests.swift */; };
+		1A97A6A22E08DB8D9F8C1E60 /* ScanFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2613F6C7D1E4B11226EB01 /* ScanFlowView.swift */; };
+		1EDCB7A4DA9A3984E173B4C6 /* VentureSpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D173F8DE07522CAF3E0A8C95 /* VentureSpeechService.swift */; };
+		202603739D57515C2D32B3CD /* MentalHealthCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E037D23871A91BAC91E30 /* MentalHealthCoreTests.swift */; };
+		209807D2833C2CAC86B3D570 /* MetricCompanionEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85AB21A7697BD188F4F99FFE /* MetricCompanionEngineTests.swift */; };
+		21045EDD8293DFD243F7AA3D /* InsightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B862E88E3BA738628BFB864 /* InsightsView.swift */; };
+		2242BBC1B44062F204F4FDC2 /* HealthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979F892D8305B601FABBEED8 /* HealthService.swift */; };
+		2C2E5846E95FE83C8C17DF1A /* SileroVAD.mlpackage in Resources */ = {isa = PBXBuildFile; fileRef = CC5F91F3A9CC1E317022120F /* SileroVAD.mlpackage */; };
+		2FD747EB559EF74900C97CDA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BCF0BBF5CF36D0DC7B45593 /* AVFoundation.framework */; };
+		3226E741E01C153768C4318D /* VentureCallingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE414AB698BA236E185A3E2 /* VentureCallingService.swift */; };
+		335D8A25625C3680D7D9C23D /* VentureAtmosphereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6158A0B22A673CFD5CF2847 /* VentureAtmosphereView.swift */; };
+		3864FE931E9D2E87FFE394D9 /* VentureStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B924103CCFFCABA0C301F1DC /* VentureStore.swift */; };
+		392812FB4D06B90B8EB99FF6 /* VentureExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 870FB6E4ACD209F4DE565216 /* VentureExperienceView.swift */; };
+		3A373F5AE258C3273F8B97BF /* BootstrapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFB211C532AC3631F8F864C /* BootstrapView.swift */; };
+		3A4D85CEC6AB73AF5FDE0AB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B850003FBBF06758B51A024 /* Assets.xcassets */; };
+		3D7A80B5B61DFE2B795102F1 /* SparklineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F14802AF63757A462FC2411 /* SparklineView.swift */; };
+		3EBAFD0C43BFB1456B6EFD0B /* NightSignal-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 07DDA10D98F435A57BBD02C8 /* NightSignal-LICENSE.txt */; };
+		419524E2E0E6FBFBF42ACF22 /* ScreenLightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E3794EB068BB11FA850EB9 /* ScreenLightController.swift */; };
+		462386FBC6507F75F675934B /* VentureTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CE34269501BA77CCC9DFCE /* VentureTheme.swift */; };
+		46ECCCE6B0D2B338ECD9C3F4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E444A9A662F67F89C2BE67F /* CoreMedia.framework */; };
+		473065AD2CE4E9B3A6FC4082 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDE2AC32A0271A1A3F4DC85 /* CoreGraphics.framework */; };
+		4D8826F44815F8223533BF66 /* VentureLiveVoiceDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD85E010D4F8F863A971C60 /* VentureLiveVoiceDemoView.swift */; };
+		4E222916C43827017C262043 /* CognitiveSupportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9634BB3FCCAA206A83584630 /* CognitiveSupportService.swift */; };
+		4E5CBA1A746944A2144732B6 /* MediaPipeIrisTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97FB96DD5204D51C163BD19 /* MediaPipeIrisTracker.swift */; };
+		5406924EB8F0E99C8E3B510F /* BiometricService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE2D1CBACB87BBC68165DA5 /* BiometricService.swift */; };
+		55DF23B91F9F4641FE568400 /* KokoroCoreML in Frameworks */ = {isa = PBXBuildFile; productRef = 8EC057E496E705B717C2B6C1 /* KokoroCoreML */; };
+		56E3690032DA6CAD7B3B40C2 /* LivingDriftScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E886A04833290FE8AB859EA7 /* LivingDriftScoreView.swift */; };
+		5720473F949E6DB5A3F27723 /* MediaPipeTasksCommon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F2E76556AEE13E315088F93 /* MediaPipeTasksCommon.xcframework */; };
+		57B5644993A5EDD777A55D60 /* AppLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACE9243BF595FF6D58126BE /* AppLockView.swift */; };
+		5B7FC66CF44593474182B777 /* VentureCarePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969CB0EBB788D271D46167B8 /* VentureCarePage.swift */; };
+		5C2ED9B6511A3B7BE754FDEA /* VentureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19C0C0E13521A3672C8F48 /* VentureApp.swift */; };
+		5DA537F18D93215DC46800D2 /* MediaPipeTasksVision.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E8BC8CD8499B98E662C01B /* MediaPipeTasksVision.xcframework */; };
+		5E66E4A662E1A62437A168BE /* VoiceCaptureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE3088666D04749416FF3C /* VoiceCaptureService.swift */; };
+		5F381E9F809EFA3BEE9E0EA5 /* SupabaseBackendSyncServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 986A90D7F1BC79F4F9154B84 /* SupabaseBackendSyncServiceTests.swift */; };
+		60447BA4EAB8CF0A95736D8C /* LocalCompanionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07013CE49DEA3A92F7188E8 /* LocalCompanionEngine.swift */; };
+		60FCD7D2A987B4384C448CA6 /* LegalDocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37281EE1624C3B656CDEDF1 /* LegalDocumentView.swift */; };
+		676AC0BD25AA1B32DB05693D /* ScanModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD5D726C41F9459F28472FD /* ScanModels.swift */; };
+		677491508FD4F8091052AE4D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF3306D1A6809D98ED50C77D /* CoreImage.framework */; };
+		6A68C736F47723FA573B9FA1 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9F5B7F0CFAADCD424586FA /* RootView.swift */; };
+		6D9AA1F480764F1C4FD4E105 /* SupabaseModelSyncBatchBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA86009E54475E0172003431 /* SupabaseModelSyncBatchBuilderTests.swift */; };
+		6DB012DD154095F7E51445BA /* PasswordStrength.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4620B7048D1079A58CB1D967 /* PasswordStrength.swift */; };
+		753DD5D7EBA92CD209A865F9 /* HealthMetricsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4842526A23E37900398C934 /* HealthMetricsTests.swift */; };
+		780AFEF85F89D0DD22517546 /* VentureLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49016775ED1A302F3AD6064B /* VentureLanguage.swift */; };
+		78E0EBAD829A1BEF8A1E3713 /* ParkinsonVoiceScreen.mlmodel in Resources */ = {isa = PBXBuildFile; fileRef = 61CCBD25B87007965A7654A7 /* ParkinsonVoiceScreen.mlmodel */; };
+		7AD1EE312520CD67DF5F660F /* VentureStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712CE932882018FEE84D55AE /* VentureStoreTests.swift */; };
+		7AEA68DAF2734744EF9F810B /* BundledLlamaEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F9798890B2E8AD28289CCF /* BundledLlamaEngineTests.swift */; };
+		7E26DF7D73E7400D4DBF1B6B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8CD6F554B31DCA6C17C3517 /* AssetsLibrary.framework */; };
+		855E222A46A7208ED1C078A4 /* BaselineIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EECDA01CA9FD9685F5D2A94 /* BaselineIntroView.swift */; };
+		891F1D6AA99CC8F6684F44B2 /* VentureJobPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC021173581F060F408C902 /* VentureJobPipeline.swift */; };
+		8D0F7B6F2714BE65540EFDA2 /* ahh-example.wav in Resources */ = {isa = PBXBuildFile; fileRef = E08D01A9BC0E13409C8DDBD6 /* ahh-example.wav */; };
+		8DD78F5D5812EE5C6121E8F0 /* PasswordStrengthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6C3D12C7ABEBE055D331B4 /* PasswordStrengthTests.swift */; };
+		9134AECB937C62F19F6FE6C9 /* ahh-example-attribution.txt in Resources */ = {isa = PBXBuildFile; fileRef = A4287F1147B4FE54EAE926BF /* ahh-example-attribution.txt */; };
+		929B16A5DFED2DE8ADAEAD81 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70CC053C93E977F46DD44FB /* LaunchView.swift */; };
+		9305376DAEE7588517F1F226 /* LivingPortalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA1C67341BCB9710C1B79B1 /* LivingPortalView.swift */; };
+		959CC0108F291D16B453A491 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150CD5E3B371AC690EAA8F5D /* Haptics.swift */; };
+		9BE2A3DCF92B06A9DA31CA1A /* AccountAuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F71D8863713543069F7D3493 /* AccountAuthService.swift */; };
+		9D312542E1994951C2C9ABEC /* VentureStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0922959CBABD1A2D0263B554 /* VentureStoreTests.swift */; };
+		9DC4BB3E72D58B4CFF05D28A /* MentalHealthCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6310B85D840BBF15B4816C /* MentalHealthCoreTests.swift */; };
+		9EBA8480C7F42F6EFC1F529F /* HealthMetricsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924FC0D6E52F76891B37CA8F /* HealthMetricsTests.swift */; };
+		A3F9D032BDF2300D3FB5FFBB /* KokoroModels in Resources */ = {isa = PBXBuildFile; fileRef = CCA83A6A3208CF645C2C92AA /* KokoroModels */; };
+		A49CBB9F3A88F95FB5EDEEAD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6733D767DA9D8D5A3FD32BB8 /* HomeView.swift */; };
+		A96954710D821B97E19114F8 /* PermissionSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E28A8CD1D4EFC96E5CC260 /* PermissionSetupView.swift */; };
+		AB143B1F347A15AD8D9AA636 /* SileroVoiceActivityDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FB4E70174A7E7CC10F8524 /* SileroVoiceActivityDetector.swift */; };
+		ABCD10000000000000000002 /* ModelRuntimeManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD10000000000000000001 /* ModelRuntimeManifest.swift */; };
+		ABCD10000000000000000004 /* ModelRuntimeManifestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD10000000000000000003 /* ModelRuntimeManifestTests.swift */; };
+		ABCD30000000000000000002 /* SupabaseBackendSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD30000000000000000001 /* SupabaseBackendSyncService.swift */; };
+		ABCD30000000000000000004 /* SupabaseBackendSyncServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD30000000000000000003 /* SupabaseBackendSyncServiceTests.swift */; };
+		ABCD31000000000000000002 /* SupabaseModelSyncBatchBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD31000000000000000001 /* SupabaseModelSyncBatchBuilder.swift */; };
+		ABCD31000000000000000004 /* SupabaseModelSyncBatchBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD31000000000000000003 /* SupabaseModelSyncBatchBuilderTests.swift */; };
+		ABCD41000000000000000002 /* RespiratoryAcousticScreening.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD41000000000000000001 /* RespiratoryAcousticScreening.swift */; };
+		ABCD52000000000000000001 /* LFM2.5-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = ABCD52000000000000000004 /* LFM2.5-LICENSE.txt */; };
+		ABCD52000000000000000002 /* LFM2.5-MODEL-CARD.md in Resources */ = {isa = PBXBuildFile; fileRef = ABCD52000000000000000005 /* LFM2.5-MODEL-CARD.md */; };
+		ABCD52000000000000000003 /* lfm2_5_230m_q4_k_m.gguf in Resources */ = {isa = PBXBuildFile; fileRef = ABCD52000000000000000006 /* lfm2_5_230m_q4_k_m.gguf */; };
+		AD0BB5926CA01420B16427F4 /* MetricCompanionEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACEDDE8E8B45090D06602D7 /* MetricCompanionEngineTests.swift */; };
+		AE40AFF52AEACAF4465AEE81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 679F11DE4969BA91DE5D71B3 /* Foundation.framework */; };
+		B36BC9DDB3696E51A94E027D /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F91CF3781C71C51D095DD66 /* CoreVideo.framework */; };
+		B48F867439D5B6541077F507 /* AccountAuthServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B4854BBFA823A873C135E0 /* AccountAuthServiceTests.swift */; };
+		B6F2A62FB60CA04C153993A8 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06C1E94BC0306AB0866168B7 /* Accelerate.framework */; };
+		B9E0F2D1BA0074FC340843EC /* CognitiveSnapshotFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F731B2D9E0E0043331256CA /* CognitiveSnapshotFixtures.swift */; };
+		BB2595A70312EC8841477E58 /* SecureMetricsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79B1F044D35404DF287A246 /* SecureMetricsStore.swift */; };
+		BB3647419CF393BAF9D4B350 /* EyeTrackingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3927207127A721AC37255C0C /* EyeTrackingService.swift */; };
+		BB7C2D5E74961DC4AACD6303 /* SectionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA797FE262CB4FF0AF99BB68 /* SectionLabel.swift */; };
+		BE0A6826460B8BB4B2872244 /* PasswordKeyDerivationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7ABC75A20A5BC2648492CC /* PasswordKeyDerivationTests.swift */; };
+		BEB1EC57089516CE7B683621 /* LocalCredentialVault.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE5BD20B35CC84AA832AA7BB /* LocalCredentialVault.swift */; };
+		C4632430EF58DF42C6CBFABA /* OnboardingFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85729AAF8A97CDD9C997A1AA /* OnboardingFlowView.swift */; };
+		C55FF394928F08BC67053E4E /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 73EAA21B1B50429E23C53611 /* PrivacyInfo.xcprivacy */; };
+		C6305CC2851E0514DD4A5F6F /* AdaptiveCompanionEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E12EE0B20DC2A0BC0828F1 /* AdaptiveCompanionEngine.swift */; };
+		C67DF8A2C0819C0F0B76E421 /* BiometricSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74494FD30348DC74094D2984 /* BiometricSetupView.swift */; };
+		C7FAEB61421581C02DD485AB /* llama.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BE28567285F3E42029122092 /* llama.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C9AE7DEDA6048A3F95988CD7 /* face_landmarker.task in Resources */ = {isa = PBXBuildFile; fileRef = EDDF832095CAB711C364CAF4 /* face_landmarker.task */; };
+		CA09B8468903F2CC67007055 /* VentureAssistantPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9749DF9EF0C3D8531B8F8014 /* VentureAssistantPage.swift */; };
+		CA81FE0F6613CEE023F34264 /* KokoroCoreML in Frameworks */ = {isa = PBXBuildFile; productRef = 2EBCECBEB074395BB70FD55E /* KokoroCoreML */; };
+		CE981C70AB439E8595571AB1 /* VentureExperienceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97073C7EF27C49AC4DCB2308 /* VentureExperienceTests.swift */; };
+		CF8CC0D5760532656CB26D9A /* VentureExperienceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9530EB4F88702F1937EEB5 /* VentureExperienceUITests.swift */; };
+		D4C8B356C5C449039CEE5492 /* llama.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE28567285F3E42029122092 /* llama.xcframework */; };
+		D7D207F51990EA176B522B3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E023B3C1CDF03FEC29DBDD /* Foundation.framework */; };
+		D88D9BB35A3D5AEA3C1ADF9C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BDCE1A834B4A0D14308BBD /* AudioToolbox.framework */; };
+		D971F4FAA83D6ED869DCA98A /* VentureInteractions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5C6C3E73C207E8269C0F11 /* VentureInteractions.swift */; };
+		D9A8B209D4B6E11D799EE16A /* VentureCallingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032E8F0D900730B4EE0787D7 /* VentureCallingUITests.swift */; };
+		DA5F5DF58503AA1D6B6B3A87 /* VentureCallingServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC81F266A67F4FD4D22793D1 /* VentureCallingServiceTests.swift */; };
+		E01C97E8036B71282A8538AD /* PasswordKeyDerivationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB47D7509341F30BE10A4F8 /* PasswordKeyDerivationTests.swift */; };
+		E15567DB2A8077FD6ABAA0A5 /* AccountAuthServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2907632BC12DEEEF64285384 /* AccountAuthServiceTests.swift */; };
+		E354EF9D8A2975E886FF42D6 /* PasswordStrengthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E616CEB9FEAB62231C8097 /* PasswordStrengthTests.swift */; };
+		E614E29BCD13ABB6B1787EEF /* VentureCallTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094D00DCA2473816E2B13E1E /* VentureCallTestView.swift */; };
+		E62756B7CDE9620B145BFF75 /* VentureAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EF1A5D12B0F30D1B6A5D68 /* VentureAccountView.swift */; };
+		E87D0FE881688893DD2646EE /* CompanionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704A66229B87D505FA2EFE0D /* CompanionView.swift */; };
+		E8BD11A16ED43152AB895944 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD5E86574F957FBC40A180A /* QuartzCore.framework */; };
+		E9A16B9908024157951BEF80 /* DriftOrbView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19A25A285E3E6B959BDF9451 /* DriftOrbView.swift */; };
+		EC470E5261331F552F3960EB /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DEF305E9C7BB4D1F87496A /* CameraPreviewView.swift */; };
+		EC7E49121DC58E4307B56B7A /* PasswordKeyDerivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0792C72740E41809FE347FC9 /* PasswordKeyDerivation.swift */; };
+		ECE7768992FEABA6BF38FEA0 /* SensorAuthorizationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE21E3A3E17DCC18CE6CB6AF /* SensorAuthorizationService.swift */; };
+		EEBCE997E5E161B54DC7A3DF /* ParkinsonVoiceScreen-LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = D035A646A593D2D6AE5B994F /* ParkinsonVoiceScreen-LICENSE.txt */; };
+		F1C6F5861EF28D7828CA1D9F /* MentalHealthCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6DF51CDB0F1A626941C0E2 /* MentalHealthCore.swift */; };
+		F61CA7F9FB14ABA90459FAA4 /* ParkinsonVoiceScreening.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6BE2AA4B3AFB3B1C47355F /* ParkinsonVoiceScreening.swift */; };
+		FC5040B69B9263B74EDA973B /* PasswordStrengthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B2F4C22B36795179E1D925 /* PasswordStrengthView.swift */; };
+		FE1A518172821BEC6F5BC94F /* ModelRuntimeManifestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EC645A12C88F261F896188 /* ModelRuntimeManifestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10C9D5B03D2D095396A47E60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD365C62E6A8EDC661AF827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C89A415A915AD32DC117275B;
+			remoteInfo = Venture;
+		};
+		53297960E51E73037C948940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDD365C62E6A8EDC661AF827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C89A415A915AD32DC117275B;
+			remoteInfo = Venture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		109DB4C0B20FA406F40DC488 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C7FAEB61421581C02DD485AB /* llama.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		032E8F0D900730B4EE0787D7 /* VentureCallingUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureCallingUITests.swift; path = VentureUITests/VentureCallingUITests.swift; sourceTree = SOURCE_ROOT; };
+		06C1E94BC0306AB0866168B7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		0792C72740E41809FE347FC9 /* PasswordKeyDerivation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordKeyDerivation.swift; path = Services/Security/PasswordKeyDerivation.swift; sourceTree = "<group>"; };
+		07DDA10D98F435A57BBD02C8 /* NightSignal-LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = "NightSignal-LICENSE.txt"; path = "Resources/Models/NightSignal-LICENSE.txt"; sourceTree = "<group>"; };
+		0922959CBABD1A2D0263B554 /* VentureStoreTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureStoreTests.swift; path = VentureTests/VentureStoreTests.swift; sourceTree = SOURCE_ROOT; };
+		094D00DCA2473816E2B13E1E /* VentureCallTestView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureCallTestView.swift; path = Venture/Features/Experience/VentureCallTestView.swift; sourceTree = SOURCE_ROOT; };
+		0C19C0C0E13521A3672C8F48 /* VentureApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureApp.swift; path = App/VentureApp.swift; sourceTree = "<group>"; };
+		0F731B2D9E0E0043331256CA /* CognitiveSnapshotFixtures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CognitiveSnapshotFixtures.swift; sourceTree = "<group>"; };
+		10E616CEB9FEAB62231C8097 /* PasswordStrengthTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordStrengthTests.swift; path = VentureTests/PasswordStrengthTests.swift; sourceTree = SOURCE_ROOT; };
+		11CE34269501BA77CCC9DFCE /* VentureTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureTheme.swift; path = Theme/VentureTheme.swift; sourceTree = "<group>"; };
+		150CD5E3B371AC690EAA8F5D /* Haptics.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Haptics.swift; path = Services/System/Haptics.swift; sourceTree = "<group>"; };
+		19A25A285E3E6B959BDF9451 /* DriftOrbView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DriftOrbView.swift; path = Components/DriftOrbView.swift; sourceTree = "<group>"; };
+		1B6C3D12C7ABEBE055D331B4 /* PasswordStrengthTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PasswordStrengthTests.swift; sourceTree = "<group>"; };
+		1F14802AF63757A462FC2411 /* SparklineView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SparklineView.swift; path = Components/SparklineView.swift; sourceTree = "<group>"; };
+		1F91CF3781C71C51D095DD66 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		20E12EE0B20DC2A0BC0828F1 /* AdaptiveCompanionEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AdaptiveCompanionEngine.swift; path = Services/Companion/AdaptiveCompanionEngine.swift; sourceTree = "<group>"; };
+		27B4854BBFA823A873C135E0 /* AccountAuthServiceTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccountAuthServiceTests.swift; path = VentureTests/AccountAuthServiceTests.swift; sourceTree = SOURCE_ROOT; };
+		2907632BC12DEEEF64285384 /* AccountAuthServiceTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AccountAuthServiceTests.swift; sourceTree = "<group>"; };
+		2DE2D1CBACB87BBC68165DA5 /* BiometricService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BiometricService.swift; path = Services/BiometricService.swift; sourceTree = "<group>"; };
+		36FEB7B60345D100F0F40773 /* CognitiveSnapshot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CognitiveSnapshot.swift; path = Domain/CognitiveSnapshot.swift; sourceTree = "<group>"; };
+		3927207127A721AC37255C0C /* EyeTrackingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EyeTrackingService.swift; path = Services/Sensors/EyeTrackingService.swift; sourceTree = "<group>"; };
+		3AA047DAAA1A86BF4B4691E9 /* Venture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Venture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AD5E86574F957FBC40A180A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3BCF0BBF5CF36D0DC7B45593 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3CE414AB698BA236E185A3E2 /* VentureCallingService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureCallingService.swift; path = Venture/Services/Companion/VentureCallingService.swift; sourceTree = SOURCE_ROOT; };
+		3D9530EB4F88702F1937EEB5 /* VentureExperienceUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureExperienceUITests.swift; path = VentureUITests/VentureExperienceUITests.swift; sourceTree = SOURCE_ROOT; };
+		3E444A9A662F67F89C2BE67F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3EECDA01CA9FD9685F5D2A94 /* BaselineIntroView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaselineIntroView.swift; path = Features/Onboarding/BaselineIntroView.swift; sourceTree = "<group>"; };
+		43FAC6D0B305A9372FEB3328 /* VentureBrandMarks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureBrandMarks.swift; path = Components/VentureBrandMarks.swift; sourceTree = "<group>"; };
+		4620B7048D1079A58CB1D967 /* PasswordStrength.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordStrength.swift; path = Services/Security/PasswordStrength.swift; sourceTree = "<group>"; };
+		49016775ED1A302F3AD6064B /* VentureLanguage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureLanguage.swift; path = Venture/Features/Experience/VentureLanguage.swift; sourceTree = SOURCE_ROOT; };
+		4CFB211C532AC3631F8F864C /* BootstrapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BootstrapView.swift; path = Root/BootstrapView.swift; sourceTree = "<group>"; };
+		4D2E037D23871A91BAC91E30 /* MentalHealthCoreTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MentalHealthCoreTests.swift; path = VentureTests/MentalHealthCoreTests.swift; sourceTree = SOURCE_ROOT; };
+		4F7751DA656F737BA705CABD /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		569EC07D9F246A1DD760FCC9 /* BundledLlamaEngineTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BundledLlamaEngineTests.swift; sourceTree = "<group>"; };
+		57497463E883A06A5E817FDE /* AuthenticationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationView.swift; path = Features/Onboarding/AuthenticationView.swift; sourceTree = "<group>"; };
+		57DE3088666D04749416FF3C /* VoiceCaptureService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VoiceCaptureService.swift; path = Services/Sensors/VoiceCaptureService.swift; sourceTree = "<group>"; };
+		59E023B3C1CDF03FEC29DBDD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6178476FFD30A80BDADE2647 /* VentureSimpleScanView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureSimpleScanView.swift; path = Venture/Features/Experience/VentureSimpleScanView.swift; sourceTree = SOURCE_ROOT; };
+		61B2F4C22B36795179E1D925 /* PasswordStrengthView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordStrengthView.swift; path = Features/Onboarding/PasswordStrengthView.swift; sourceTree = "<group>"; };
+		61CCBD25B87007965A7654A7 /* ParkinsonVoiceScreen.mlmodel */ = {isa = PBXFileReference; includeInIndex = 1; name = ParkinsonVoiceScreen.mlmodel; path = Resources/Models/ParkinsonVoiceScreen.mlmodel; sourceTree = "<group>"; };
+		62FB4E70174A7E7CC10F8524 /* SileroVoiceActivityDetector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SileroVoiceActivityDetector.swift; path = Services/Sensors/SileroVoiceActivityDetector.swift; sourceTree = "<group>"; };
+		6733D767DA9D8D5A3FD32BB8 /* HomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = Features/Home/HomeView.swift; sourceTree = "<group>"; };
+		679F11DE4969BA91DE5D71B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6ACE9243BF595FF6D58126BE /* AppLockView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppLockView.swift; path = Root/AppLockView.swift; sourceTree = "<group>"; };
+		6B5C6C3E73C207E8269C0F11 /* VentureInteractions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureInteractions.swift; path = Components/VentureInteractions.swift; sourceTree = "<group>"; };
+		6FC021173581F060F408C902 /* VentureJobPipeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureJobPipeline.swift; path = Services/System/VentureJobPipeline.swift; sourceTree = "<group>"; };
+		704A66229B87D505FA2EFE0D /* CompanionView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CompanionView.swift; path = Features/Companion/CompanionView.swift; sourceTree = "<group>"; };
+		70C312CB7C51DCE5B0536557 /* VentureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VentureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		70E3794EB068BB11FA850EB9 /* ScreenLightController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScreenLightController.swift; path = Services/System/ScreenLightController.swift; sourceTree = "<group>"; };
+		712CE932882018FEE84D55AE /* VentureStoreTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VentureStoreTests.swift; sourceTree = "<group>"; };
+		73EAA21B1B50429E23C53611 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		74494FD30348DC74094D2984 /* BiometricSetupView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BiometricSetupView.swift; path = Features/Onboarding/BiometricSetupView.swift; sourceTree = "<group>"; };
+		7B850003FBBF06758B51A024 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		80EF1A5D12B0F30D1B6A5D68 /* VentureAccountView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureAccountView.swift; path = Venture/Features/Experience/VentureAccountView.swift; sourceTree = SOURCE_ROOT; };
+		85729AAF8A97CDD9C997A1AA /* OnboardingFlowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingFlowView.swift; path = Features/Onboarding/OnboardingFlowView.swift; sourceTree = "<group>"; };
+		85AB21A7697BD188F4F99FFE /* MetricCompanionEngineTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MetricCompanionEngineTests.swift; sourceTree = "<group>"; };
+		870FB6E4ACD209F4DE565216 /* VentureExperienceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureExperienceView.swift; path = Venture/Features/Experience/VentureExperienceView.swift; sourceTree = SOURCE_ROOT; };
+		87F9798890B2E8AD28289CCF /* BundledLlamaEngineTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundledLlamaEngineTests.swift; path = VentureTests/BundledLlamaEngineTests.swift; sourceTree = SOURCE_ROOT; };
+		8F2E76556AEE13E315088F93 /* MediaPipeTasksCommon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = MediaPipeTasksCommon.xcframework; path = Vendor/MediaPipe/Common/frameworks/MediaPipeTasksCommon.xcframework; sourceTree = SOURCE_ROOT; };
+		924FC0D6E52F76891B37CA8F /* HealthMetricsTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HealthMetricsTests.swift; sourceTree = "<group>"; };
+		94BDCE1A834B4A0D14308BBD /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9634BB3FCCAA206A83584630 /* CognitiveSupportService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CognitiveSupportService.swift; path = Services/System/CognitiveSupportService.swift; sourceTree = "<group>"; };
+		969CB0EBB788D271D46167B8 /* VentureCarePage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureCarePage.swift; path = Venture/Features/Experience/VentureCarePage.swift; sourceTree = SOURCE_ROOT; };
+		97073C7EF27C49AC4DCB2308 /* VentureExperienceTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureExperienceTests.swift; path = VentureTests/VentureExperienceTests.swift; sourceTree = SOURCE_ROOT; };
+		9749DF9EF0C3D8531B8F8014 /* VentureAssistantPage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureAssistantPage.swift; path = Venture/Features/Experience/VentureAssistantPage.swift; sourceTree = SOURCE_ROOT; };
+		979F892D8305B601FABBEED8 /* HealthService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HealthService.swift; path = Services/HealthService.swift; sourceTree = "<group>"; };
+		986A90D7F1BC79F4F9154B84 /* SupabaseBackendSyncServiceTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SupabaseBackendSyncServiceTests.swift; path = VentureTests/SupabaseBackendSyncServiceTests.swift; sourceTree = SOURCE_ROOT; };
+		9B862E88E3BA738628BFB864 /* InsightsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InsightsView.swift; path = Features/Insights/InsightsView.swift; sourceTree = "<group>"; };
+		9FA1C67341BCB9710C1B79B1 /* LivingPortalView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LivingPortalView.swift; path = Components/LivingPortalView.swift; sourceTree = "<group>"; };
+		A4287F1147B4FE54EAE926BF /* ahh-example-attribution.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = "ahh-example-attribution.txt"; path = "Venture/Resources/ahh-example-attribution.txt"; sourceTree = SOURCE_ROOT; };
+		A7DEF305E9C7BB4D1F87496A /* CameraPreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CameraPreviewView.swift; path = Components/CameraPreviewView.swift; sourceTree = "<group>"; };
+		A97FB96DD5204D51C163BD19 /* MediaPipeIrisTracker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MediaPipeIrisTracker.swift; path = Venture/Services/Sensors/MediaPipeIrisTracker.swift; sourceTree = SOURCE_ROOT; };
+		AA6DF51CDB0F1A626941C0E2 /* MentalHealthCore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MentalHealthCore.swift; path = Services/MentalHealth/MentalHealthCore.swift; sourceTree = "<group>"; };
+		AA86009E54475E0172003431 /* SupabaseModelSyncBatchBuilderTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SupabaseModelSyncBatchBuilderTests.swift; path = VentureTests/SupabaseModelSyncBatchBuilderTests.swift; sourceTree = SOURCE_ROOT; };
+		ABCD10000000000000000001 /* ModelRuntimeManifest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModelRuntimeManifest.swift; path = Services/MentalHealth/ModelRuntimeManifest.swift; sourceTree = "<group>"; };
+		ABCD10000000000000000003 /* ModelRuntimeManifestTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModelRuntimeManifestTests.swift; sourceTree = "<group>"; };
+		ABCD30000000000000000001 /* SupabaseBackendSyncService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SupabaseBackendSyncService.swift; path = Services/Backend/SupabaseBackendSyncService.swift; sourceTree = "<group>"; };
+		ABCD30000000000000000003 /* SupabaseBackendSyncServiceTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SupabaseBackendSyncServiceTests.swift; sourceTree = "<group>"; };
+		ABCD31000000000000000001 /* SupabaseModelSyncBatchBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SupabaseModelSyncBatchBuilder.swift; path = Services/Backend/SupabaseModelSyncBatchBuilder.swift; sourceTree = "<group>"; };
+		ABCD31000000000000000003 /* SupabaseModelSyncBatchBuilderTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SupabaseModelSyncBatchBuilderTests.swift; sourceTree = "<group>"; };
+		ABCD41000000000000000001 /* RespiratoryAcousticScreening.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RespiratoryAcousticScreening.swift; path = Services/Sensors/RespiratoryAcousticScreening.swift; sourceTree = "<group>"; };
+		ABCD52000000000000000004 /* LFM2.5-LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = "LFM2.5-LICENSE.txt"; path = "Resources/Models/LocalLLM/LFM2.5-LICENSE.txt"; sourceTree = "<group>"; };
+		ABCD52000000000000000005 /* LFM2.5-MODEL-CARD.md */ = {isa = PBXFileReference; includeInIndex = 1; name = "LFM2.5-MODEL-CARD.md"; path = "Resources/Models/LocalLLM/LFM2.5-MODEL-CARD.md"; sourceTree = "<group>"; };
+		ABCD52000000000000000006 /* lfm2_5_230m_q4_k_m.gguf */ = {isa = PBXFileReference; includeInIndex = 1; name = lfm2_5_230m_q4_k_m.gguf; path = Resources/Models/LocalLLM/lfm2_5_230m_q4_k_m.gguf; sourceTree = "<group>"; };
+		AE21E3A3E17DCC18CE6CB6AF /* SensorAuthorizationService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SensorAuthorizationService.swift; path = Services/Sensors/SensorAuthorizationService.swift; sourceTree = "<group>"; };
+		B37281EE1624C3B656CDEDF1 /* LegalDocumentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LegalDocumentView.swift; path = Features/Onboarding/LegalDocumentView.swift; sourceTree = "<group>"; };
+		B4842526A23E37900398C934 /* HealthMetricsTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HealthMetricsTests.swift; path = VentureTests/HealthMetricsTests.swift; sourceTree = SOURCE_ROOT; };
+		B6158A0B22A673CFD5CF2847 /* VentureAtmosphereView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureAtmosphereView.swift; path = Components/VentureAtmosphereView.swift; sourceTree = "<group>"; };
+		B924103CCFFCABA0C301F1DC /* VentureStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureStore.swift; path = Core/VentureStore.swift; sourceTree = "<group>"; };
+		B9E28A8CD1D4EFC96E5CC260 /* PermissionSetupView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PermissionSetupView.swift; path = Features/Onboarding/PermissionSetupView.swift; sourceTree = "<group>"; };
+		BC81F266A67F4FD4D22793D1 /* VentureCallingServiceTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureCallingServiceTests.swift; path = VentureTests/VentureCallingServiceTests.swift; sourceTree = SOURCE_ROOT; };
+		BCB6E72660EE14E503AEFA10 /* BundledLlamaEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BundledLlamaEngine.swift; path = Services/Companion/BundledLlamaEngine.swift; sourceTree = "<group>"; };
+		BE28567285F3E42029122092 /* llama.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = llama.xcframework; path = "Vendor/LlamaRuntime/build-apple/llama.xcframework"; sourceTree = "<group>"; };
+		BE7ABC75A20A5BC2648492CC /* PasswordKeyDerivationTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PasswordKeyDerivationTests.swift; path = VentureTests/PasswordKeyDerivationTests.swift; sourceTree = SOURCE_ROOT; };
+		BEC2727624D462124927C08B /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Features/Settings/SettingsView.swift; sourceTree = "<group>"; };
+		BF6310B85D840BBF15B4816C /* MentalHealthCoreTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MentalHealthCoreTests.swift; sourceTree = "<group>"; };
+		C0E8BC8CD8499B98E662C01B /* MediaPipeTasksVision.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = MediaPipeTasksVision.xcframework; path = Vendor/MediaPipe/Vision/frameworks/MediaPipeTasksVision.xcframework; sourceTree = SOURCE_ROOT; };
+		C8CD6F554B31DCA6C17C3517 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CA797FE262CB4FF0AF99BB68 /* SectionLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SectionLabel.swift; path = Components/SectionLabel.swift; sourceTree = "<group>"; };
+		CC5F91F3A9CC1E317022120F /* SileroVAD.mlpackage */ = {isa = PBXFileReference; includeInIndex = 1; name = SileroVAD.mlpackage; path = Resources/Models/SileroVAD.mlpackage; sourceTree = "<group>"; };
+		CC9F5B7F0CFAADCD424586FA /* RootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RootView.swift; path = Root/RootView.swift; sourceTree = "<group>"; };
+		CCA83A6A3208CF645C2C92AA /* KokoroModels */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = KokoroModels; path = Venture/Resources/KokoroModels; sourceTree = SOURCE_ROOT; };
+		CDDE2AC32A0271A1A3F4DC85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE5BD20B35CC84AA832AA7BB /* LocalCredentialVault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalCredentialVault.swift; path = Services/Security/LocalCredentialVault.swift; sourceTree = "<group>"; };
+		D035A646A593D2D6AE5B994F /* ParkinsonVoiceScreen-LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; name = "ParkinsonVoiceScreen-LICENSE.txt"; path = "Resources/Models/ParkinsonVoiceScreen-LICENSE.txt"; sourceTree = "<group>"; };
+		D0C29EDC79804D50BA849E81 /* VentureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VentureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D173F8DE07522CAF3E0A8C95 /* VentureSpeechService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureSpeechService.swift; path = Venture/Services/Companion/VentureSpeechService.swift; sourceTree = SOURCE_ROOT; };
+		D1EC645A12C88F261F896188 /* ModelRuntimeManifestTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModelRuntimeManifestTests.swift; path = VentureTests/ModelRuntimeManifestTests.swift; sourceTree = SOURCE_ROOT; };
+		DCB47D7509341F30BE10A4F8 /* PasswordKeyDerivationTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PasswordKeyDerivationTests.swift; sourceTree = "<group>"; };
+		DDD5D726C41F9459F28472FD /* ScanModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScanModels.swift; path = Domain/ScanModels.swift; sourceTree = "<group>"; };
+		DF2613F6C7D1E4B11226EB01 /* ScanFlowView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScanFlowView.swift; path = Features/Scan/ScanFlowView.swift; sourceTree = "<group>"; };
+		DF3306D1A6809D98ED50C77D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		E08D01A9BC0E13409C8DDBD6 /* ahh-example.wav */ = {isa = PBXFileReference; includeInIndex = 1; name = "ahh-example.wav"; path = "Venture/Resources/ahh-example.wav"; sourceTree = SOURCE_ROOT; };
+		E70CC053C93E977F46DD44FB /* LaunchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LaunchView.swift; path = Root/LaunchView.swift; sourceTree = "<group>"; };
+		E886A04833290FE8AB859EA7 /* LivingDriftScoreView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LivingDriftScoreView.swift; path = Components/LivingDriftScoreView.swift; sourceTree = "<group>"; };
+		EACEDDE8E8B45090D06602D7 /* MetricCompanionEngineTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MetricCompanionEngineTests.swift; path = VentureTests/MetricCompanionEngineTests.swift; sourceTree = SOURCE_ROOT; };
+		EC6BE2AA4B3AFB3B1C47355F /* ParkinsonVoiceScreening.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParkinsonVoiceScreening.swift; path = Services/Sensors/ParkinsonVoiceScreening.swift; sourceTree = "<group>"; };
+		EDDF832095CAB711C364CAF4 /* face_landmarker.task */ = {isa = PBXFileReference; includeInIndex = 1; name = face_landmarker.task; path = Venture/Resources/Models/face_landmarker.task; sourceTree = SOURCE_ROOT; };
+		F07013CE49DEA3A92F7188E8 /* LocalCompanionEngine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalCompanionEngine.swift; path = Services/Companion/LocalCompanionEngine.swift; sourceTree = "<group>"; };
+		F71D8863713543069F7D3493 /* AccountAuthService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccountAuthService.swift; path = Services/Security/AccountAuthService.swift; sourceTree = "<group>"; };
+		F79B1F044D35404DF287A246 /* SecureMetricsStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SecureMetricsStore.swift; path = Services/Storage/SecureMetricsStore.swift; sourceTree = "<group>"; };
+		FAD85E010D4F8F863A971C60 /* VentureLiveVoiceDemoView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VentureLiveVoiceDemoView.swift; path = Venture/Features/Experience/VentureLiveVoiceDemoView.swift; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E7C401382C1759726EE049A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE40AFF52AEACAF4465AEE81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BBA00D3582F008A89CE788F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E7A77CDCC7126E0907F69CC /* Foundation.framework in Frameworks */,
+				D4C8B356C5C449039CEE5492 /* llama.xcframework in Frameworks */,
+				55DF23B91F9F4641FE568400 /* KokoroCoreML in Frameworks */,
+				5DA537F18D93215DC46800D2 /* MediaPipeTasksVision.xcframework in Frameworks */,
+				B6F2A62FB60CA04C153993A8 /* Accelerate.framework in Frameworks */,
+				D88D9BB35A3D5AEA3C1ADF9C /* AudioToolbox.framework in Frameworks */,
+				46ECCCE6B0D2B338ECD9C3F4 /* CoreMedia.framework in Frameworks */,
+				7E26DF7D73E7400D4DBF1B6B /* AssetsLibrary.framework in Frameworks */,
+				02904872BBB1A08834CD7F0C /* CoreFoundation.framework in Frameworks */,
+				473065AD2CE4E9B3A6FC4082 /* CoreGraphics.framework in Frameworks */,
+				677491508FD4F8091052AE4D /* CoreImage.framework in Frameworks */,
+				E8BD11A16ED43152AB895944 /* QuartzCore.framework in Frameworks */,
+				2FD747EB559EF74900C97CDA /* AVFoundation.framework in Frameworks */,
+				B36BC9DDB3696E51A94E027D /* CoreVideo.framework in Frameworks */,
+				5720473F949E6DB5A3F27723 /* MediaPipeTasksCommon.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98475C3E1415FC3CF399F82E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D207F51990EA176B522B3B /* Foundation.framework in Frameworks */,
+				CA81FE0F6613CEE023F34264 /* KokoroCoreML in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		161B5D7147EDE646D42BAAD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AA047DAAA1A86BF4B4691E9 /* Venture.app */,
+				D0C29EDC79804D50BA849E81 /* VentureTests.xctest */,
+				70C312CB7C51DCE5B0536557 /* VentureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33FF6BBCBC47F013B748D8D6 = {
+			isa = PBXGroup;
+			children = (
+				032E8F0D900730B4EE0787D7 /* VentureCallingUITests.swift */,
+				BC81F266A67F4FD4D22793D1 /* VentureCallingServiceTests.swift */,
+				094D00DCA2473816E2B13E1E /* VentureCallTestView.swift */,
+				3CE414AB698BA236E185A3E2 /* VentureCallingService.swift */,
+				161B5D7147EDE646D42BAAD5 /* Products */,
+				A366C7368FA206632241ACEC /* Frameworks */,
+				EB44110F61BCBFFE85E6F269 /* Venture */,
+				A4302EF8636811DE71F87E85 /* VentureTests */,
+				49016775ED1A302F3AD6064B /* VentureLanguage.swift */,
+				870FB6E4ACD209F4DE565216 /* VentureExperienceView.swift */,
+				80EF1A5D12B0F30D1B6A5D68 /* VentureAccountView.swift */,
+				9749DF9EF0C3D8531B8F8014 /* VentureAssistantPage.swift */,
+				969CB0EBB788D271D46167B8 /* VentureCarePage.swift */,
+				6178476FFD30A80BDADE2647 /* VentureSimpleScanView.swift */,
+				D173F8DE07522CAF3E0A8C95 /* VentureSpeechService.swift */,
+				A97FB96DD5204D51C163BD19 /* MediaPipeIrisTracker.swift */,
+				CCA83A6A3208CF645C2C92AA /* KokoroModels */,
+				EDDF832095CAB711C364CAF4 /* face_landmarker.task */,
+				97073C7EF27C49AC4DCB2308 /* VentureExperienceTests.swift */,
+				C0E8BC8CD8499B98E662C01B /* MediaPipeTasksVision.xcframework */,
+				8F2E76556AEE13E315088F93 /* MediaPipeTasksCommon.xcframework */,
+				A4287F1147B4FE54EAE926BF /* ahh-example-attribution.txt */,
+				3D9530EB4F88702F1937EEB5 /* VentureExperienceUITests.swift */,
+				E08D01A9BC0E13409C8DDBD6 /* ahh-example.wav */,
+				EACEDDE8E8B45090D06602D7 /* MetricCompanionEngineTests.swift */,
+				BE7ABC75A20A5BC2648492CC /* PasswordKeyDerivationTests.swift */,
+				4D2E037D23871A91BAC91E30 /* MentalHealthCoreTests.swift */,
+				87F9798890B2E8AD28289CCF /* BundledLlamaEngineTests.swift */,
+				B4842526A23E37900398C934 /* HealthMetricsTests.swift */,
+				27B4854BBFA823A873C135E0 /* AccountAuthServiceTests.swift */,
+				D1EC645A12C88F261F896188 /* ModelRuntimeManifestTests.swift */,
+				0922959CBABD1A2D0263B554 /* VentureStoreTests.swift */,
+				986A90D7F1BC79F4F9154B84 /* SupabaseBackendSyncServiceTests.swift */,
+				AA86009E54475E0172003431 /* SupabaseModelSyncBatchBuilderTests.swift */,
+				10E616CEB9FEAB62231C8097 /* PasswordStrengthTests.swift */,
+				FAD85E010D4F8F863A971C60 /* VentureLiveVoiceDemoView.swift */,
+			);
+			sourceTree = "<group>";
+		};
+		67C37A30EB57BEC062853E5F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				59E023B3C1CDF03FEC29DBDD /* Foundation.framework */,
+				679F11DE4969BA91DE5D71B3 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A366C7368FA206632241ACEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67C37A30EB57BEC062853E5F /* iOS */,
+				BE28567285F3E42029122092 /* llama.xcframework */,
+				06C1E94BC0306AB0866168B7 /* Accelerate.framework */,
+				94BDCE1A834B4A0D14308BBD /* AudioToolbox.framework */,
+				3E444A9A662F67F89C2BE67F /* CoreMedia.framework */,
+				C8CD6F554B31DCA6C17C3517 /* AssetsLibrary.framework */,
+				4F7751DA656F737BA705CABD /* CoreFoundation.framework */,
+				CDDE2AC32A0271A1A3F4DC85 /* CoreGraphics.framework */,
+				DF3306D1A6809D98ED50C77D /* CoreImage.framework */,
+				3AD5E86574F957FBC40A180A /* QuartzCore.framework */,
+				3BCF0BBF5CF36D0DC7B45593 /* AVFoundation.framework */,
+				1F91CF3781C71C51D095DD66 /* CoreVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4302EF8636811DE71F87E85 /* VentureTests */ = {
+			isa = PBXGroup;
+			children = (
+				2907632BC12DEEEF64285384 /* AccountAuthServiceTests.swift */,
+				569EC07D9F246A1DD760FCC9 /* BundledLlamaEngineTests.swift */,
+				0F731B2D9E0E0043331256CA /* CognitiveSnapshotFixtures.swift */,
+				924FC0D6E52F76891B37CA8F /* HealthMetricsTests.swift */,
+				BF6310B85D840BBF15B4816C /* MentalHealthCoreTests.swift */,
+				ABCD10000000000000000003 /* ModelRuntimeManifestTests.swift */,
+				85AB21A7697BD188F4F99FFE /* MetricCompanionEngineTests.swift */,
+				DCB47D7509341F30BE10A4F8 /* PasswordKeyDerivationTests.swift */,
+				1B6C3D12C7ABEBE055D331B4 /* PasswordStrengthTests.swift */,
+				712CE932882018FEE84D55AE /* VentureStoreTests.swift */,
+				ABCD30000000000000000003 /* SupabaseBackendSyncServiceTests.swift */,
+				ABCD31000000000000000003 /* SupabaseModelSyncBatchBuilderTests.swift */,
+			);
+			name = VentureTests;
+			path = VentureTests;
+			sourceTree = "<group>";
+		};
+		EB44110F61BCBFFE85E6F269 /* Venture */ = {
+			isa = PBXGroup;
+			children = (
+				0C19C0C0E13521A3672C8F48 /* VentureApp.swift */,
+				A7DEF305E9C7BB4D1F87496A /* CameraPreviewView.swift */,
+				19A25A285E3E6B959BDF9451 /* DriftOrbView.swift */,
+				E886A04833290FE8AB859EA7 /* LivingDriftScoreView.swift */,
+				9FA1C67341BCB9710C1B79B1 /* LivingPortalView.swift */,
+				CA797FE262CB4FF0AF99BB68 /* SectionLabel.swift */,
+				B6158A0B22A673CFD5CF2847 /* VentureAtmosphereView.swift */,
+				43FAC6D0B305A9372FEB3328 /* VentureBrandMarks.swift */,
+				6B5C6C3E73C207E8269C0F11 /* VentureInteractions.swift */,
+				1F14802AF63757A462FC2411 /* SparklineView.swift */,
+				B924103CCFFCABA0C301F1DC /* VentureStore.swift */,
+				36FEB7B60345D100F0F40773 /* CognitiveSnapshot.swift */,
+				DDD5D726C41F9459F28472FD /* ScanModels.swift */,
+				704A66229B87D505FA2EFE0D /* CompanionView.swift */,
+				6733D767DA9D8D5A3FD32BB8 /* HomeView.swift */,
+				9B862E88E3BA738628BFB864 /* InsightsView.swift */,
+				57497463E883A06A5E817FDE /* AuthenticationView.swift */,
+				3EECDA01CA9FD9685F5D2A94 /* BaselineIntroView.swift */,
+				74494FD30348DC74094D2984 /* BiometricSetupView.swift */,
+				B37281EE1624C3B656CDEDF1 /* LegalDocumentView.swift */,
+				85729AAF8A97CDD9C997A1AA /* OnboardingFlowView.swift */,
+				61B2F4C22B36795179E1D925 /* PasswordStrengthView.swift */,
+				B9E28A8CD1D4EFC96E5CC260 /* PermissionSetupView.swift */,
+				DF2613F6C7D1E4B11226EB01 /* ScanFlowView.swift */,
+				BEC2727624D462124927C08B /* SettingsView.swift */,
+				6ACE9243BF595FF6D58126BE /* AppLockView.swift */,
+				4CFB211C532AC3631F8F864C /* BootstrapView.swift */,
+				E70CC053C93E977F46DD44FB /* LaunchView.swift */,
+				CC9F5B7F0CFAADCD424586FA /* RootView.swift */,
+				2DE2D1CBACB87BBC68165DA5 /* BiometricService.swift */,
+				20E12EE0B20DC2A0BC0828F1 /* AdaptiveCompanionEngine.swift */,
+				BCB6E72660EE14E503AEFA10 /* BundledLlamaEngine.swift */,
+				F07013CE49DEA3A92F7188E8 /* LocalCompanionEngine.swift */,
+				979F892D8305B601FABBEED8 /* HealthService.swift */,
+				AA6DF51CDB0F1A626941C0E2 /* MentalHealthCore.swift */,
+				ABCD10000000000000000001 /* ModelRuntimeManifest.swift */,
+				F71D8863713543069F7D3493 /* AccountAuthService.swift */,
+				CE5BD20B35CC84AA832AA7BB /* LocalCredentialVault.swift */,
+				0792C72740E41809FE347FC9 /* PasswordKeyDerivation.swift */,
+				4620B7048D1079A58CB1D967 /* PasswordStrength.swift */,
+				3927207127A721AC37255C0C /* EyeTrackingService.swift */,
+				EC6BE2AA4B3AFB3B1C47355F /* ParkinsonVoiceScreening.swift */,
+				ABCD41000000000000000001 /* RespiratoryAcousticScreening.swift */,
+				AE21E3A3E17DCC18CE6CB6AF /* SensorAuthorizationService.swift */,
+				62FB4E70174A7E7CC10F8524 /* SileroVoiceActivityDetector.swift */,
+				57DE3088666D04749416FF3C /* VoiceCaptureService.swift */,
+				F79B1F044D35404DF287A246 /* SecureMetricsStore.swift */,
+				9634BB3FCCAA206A83584630 /* CognitiveSupportService.swift */,
+				150CD5E3B371AC690EAA8F5D /* Haptics.swift */,
+				70E3794EB068BB11FA850EB9 /* ScreenLightController.swift */,
+				6FC021173581F060F408C902 /* VentureJobPipeline.swift */,
+				ABCD30000000000000000001 /* SupabaseBackendSyncService.swift */,
+				ABCD31000000000000000001 /* SupabaseModelSyncBatchBuilder.swift */,
+				11CE34269501BA77CCC9DFCE /* VentureTheme.swift */,
+				7B850003FBBF06758B51A024 /* Assets.xcassets */,
+				73EAA21B1B50429E23C53611 /* PrivacyInfo.xcprivacy */,
+				ABCD52000000000000000004 /* LFM2.5-LICENSE.txt */,
+				ABCD52000000000000000005 /* LFM2.5-MODEL-CARD.md */,
+				ABCD52000000000000000006 /* lfm2_5_230m_q4_k_m.gguf */,
+				07DDA10D98F435A57BBD02C8 /* NightSignal-LICENSE.txt */,
+				D035A646A593D2D6AE5B994F /* ParkinsonVoiceScreen-LICENSE.txt */,
+				61CCBD25B87007965A7654A7 /* ParkinsonVoiceScreen.mlmodel */,
+				CC5F91F3A9CC1E317022120F /* SileroVAD.mlpackage */,
+			);
+			name = Venture;
+			path = Venture;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A06E40B40881E24A7085C67 /* VentureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C6F1A21FE109011C7D05CA /* Build configuration list for PBXNativeTarget "VentureUITests" */;
+			buildPhases = (
+				462C5DC20B3858A7C9928CCF /* Sources */,
+				1E7C401382C1759726EE049A /* Frameworks */,
+				1E20FB02317EBA7AF5ABE977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAE4AD98A14819D7867A877A /* PBXTargetDependency */,
+			);
+			name = VentureUITests;
+			productName = VentureUITests;
+			productReference = 70C312CB7C51DCE5B0536557 /* VentureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C89A415A915AD32DC117275B /* Venture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1312B0B762BAE63D51092DCA /* Build configuration list for PBXNativeTarget "Venture" */;
+			buildPhases = (
+				06215FF1E8985BF8FF4A9B4A /* Sources */,
+				5BBA00D3582F008A89CE788F /* Frameworks */,
+				6B9D086BC5B578605108F2A7 /* Resources */,
+				109DB4C0B20FA406F40DC488 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Venture;
+			packageProductDependencies = (
+				8EC057E496E705B717C2B6C1 /* KokoroCoreML */,
+			);
+			productName = Venture;
+			productReference = 3AA047DAAA1A86BF4B4691E9 /* Venture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF470324E7D53D4C6F64A14A /* VentureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143C8CE3990B064E2B9F82FF /* Build configuration list for PBXNativeTarget "VentureTests" */;
+			buildPhases = (
+				055F18F576BB4085919D3501 /* Sources */,
+				98475C3E1415FC3CF399F82E /* Frameworks */,
+				0B73877BDBBB4BAB3EF3A85D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C9731E02FCEFE66F2EDE9C93 /* PBXTargetDependency */,
+			);
+			name = VentureTests;
+			packageProductDependencies = (
+				2EBCECBEB074395BB70FD55E /* KokoroCoreML */,
+			);
+			productName = VentureTests;
+			productReference = D0C29EDC79804D50BA849E81 /* VentureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDD365C62E6A8EDC661AF827 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 2650;
+				LastUpgradeCheck = 2650;
+			};
+			buildConfigurationList = 618B3583729D92C764B9A179 /* Build configuration list for PBXProject "Venture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33FF6BBCBC47F013B748D8D6;
+			minimizedProjectReferenceProxies = 0;
+			packageReferences = (
+				888345FB6542AE5C41E5F4DB /* XCLocalSwiftPackageReference "KokoroCoreML" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 161B5D7147EDE646D42BAAD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C89A415A915AD32DC117275B /* Venture */,
+				EF470324E7D53D4C6F64A14A /* VentureTests */,
+				9A06E40B40881E24A7085C67 /* VentureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B73877BDBBB4BAB3EF3A85D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E20FB02317EBA7AF5ABE977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B9D086BC5B578605108F2A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4D85CEC6AB73AF5FDE0AB8 /* Assets.xcassets in Resources */,
+				C55FF394928F08BC67053E4E /* PrivacyInfo.xcprivacy in Resources */,
+				ABCD52000000000000000001 /* LFM2.5-LICENSE.txt in Resources */,
+				ABCD52000000000000000002 /* LFM2.5-MODEL-CARD.md in Resources */,
+				ABCD52000000000000000003 /* lfm2_5_230m_q4_k_m.gguf in Resources */,
+				3EBAFD0C43BFB1456B6EFD0B /* NightSignal-LICENSE.txt in Resources */,
+				EEBCE997E5E161B54DC7A3DF /* ParkinsonVoiceScreen-LICENSE.txt in Resources */,
+				78E0EBAD829A1BEF8A1E3713 /* ParkinsonVoiceScreen.mlmodel in Resources */,
+				2C2E5846E95FE83C8C17DF1A /* SileroVAD.mlpackage in Resources */,
+				A3F9D032BDF2300D3FB5FFBB /* KokoroModels in Resources */,
+				C9AE7DEDA6048A3F95988CD7 /* face_landmarker.task in Resources */,
+				9134AECB937C62F19F6FE6C9 /* ahh-example-attribution.txt in Resources */,
+				8D0F7B6F2714BE65540EFDA2 /* ahh-example.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		055F18F576BB4085919D3501 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA5F5DF58503AA1D6B6B3A87 /* VentureCallingServiceTests.swift in Sources */,
+				E15567DB2A8077FD6ABAA0A5 /* AccountAuthServiceTests.swift in Sources */,
+				19449FFA7F88D9A41FB6E2A3 /* BundledLlamaEngineTests.swift in Sources */,
+				B9E0F2D1BA0074FC340843EC /* CognitiveSnapshotFixtures.swift in Sources */,
+				9EBA8480C7F42F6EFC1F529F /* HealthMetricsTests.swift in Sources */,
+				9DC4BB3E72D58B4CFF05D28A /* MentalHealthCoreTests.swift in Sources */,
+				ABCD10000000000000000004 /* ModelRuntimeManifestTests.swift in Sources */,
+				209807D2833C2CAC86B3D570 /* MetricCompanionEngineTests.swift in Sources */,
+				E01C97E8036B71282A8538AD /* PasswordKeyDerivationTests.swift in Sources */,
+				8DD78F5D5812EE5C6121E8F0 /* PasswordStrengthTests.swift in Sources */,
+				7AD1EE312520CD67DF5F660F /* VentureStoreTests.swift in Sources */,
+				ABCD30000000000000000004 /* SupabaseBackendSyncServiceTests.swift in Sources */,
+				ABCD31000000000000000004 /* SupabaseModelSyncBatchBuilderTests.swift in Sources */,
+				CE981C70AB439E8595571AB1 /* VentureExperienceTests.swift in Sources */,
+				AD0BB5926CA01420B16427F4 /* MetricCompanionEngineTests.swift in Sources */,
+				BE0A6826460B8BB4B2872244 /* PasswordKeyDerivationTests.swift in Sources */,
+				202603739D57515C2D32B3CD /* MentalHealthCoreTests.swift in Sources */,
+				7AEA68DAF2734744EF9F810B /* BundledLlamaEngineTests.swift in Sources */,
+				753DD5D7EBA92CD209A865F9 /* HealthMetricsTests.swift in Sources */,
+				B48F867439D5B6541077F507 /* AccountAuthServiceTests.swift in Sources */,
+				FE1A518172821BEC6F5BC94F /* ModelRuntimeManifestTests.swift in Sources */,
+				9D312542E1994951C2C9ABEC /* VentureStoreTests.swift in Sources */,
+				5F381E9F809EFA3BEE9E0EA5 /* SupabaseBackendSyncServiceTests.swift in Sources */,
+				6D9AA1F480764F1C4FD4E105 /* SupabaseModelSyncBatchBuilderTests.swift in Sources */,
+				E354EF9D8A2975E886FF42D6 /* PasswordStrengthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06215FF1E8985BF8FF4A9B4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E614E29BCD13ABB6B1787EEF /* VentureCallTestView.swift in Sources */,
+				3226E741E01C153768C4318D /* VentureCallingService.swift in Sources */,
+				5C2ED9B6511A3B7BE754FDEA /* VentureApp.swift in Sources */,
+				EC470E5261331F552F3960EB /* CameraPreviewView.swift in Sources */,
+				E9A16B9908024157951BEF80 /* DriftOrbView.swift in Sources */,
+				56E3690032DA6CAD7B3B40C2 /* LivingDriftScoreView.swift in Sources */,
+				9305376DAEE7588517F1F226 /* LivingPortalView.swift in Sources */,
+				BB7C2D5E74961DC4AACD6303 /* SectionLabel.swift in Sources */,
+				335D8A25625C3680D7D9C23D /* VentureAtmosphereView.swift in Sources */,
+				0789E413C00DC321D389A6CD /* VentureBrandMarks.swift in Sources */,
+				D971F4FAA83D6ED869DCA98A /* VentureInteractions.swift in Sources */,
+				3D7A80B5B61DFE2B795102F1 /* SparklineView.swift in Sources */,
+				3864FE931E9D2E87FFE394D9 /* VentureStore.swift in Sources */,
+				11B3BAFEC3F66F2BF6BFDB23 /* CognitiveSnapshot.swift in Sources */,
+				676AC0BD25AA1B32DB05693D /* ScanModels.swift in Sources */,
+				E87D0FE881688893DD2646EE /* CompanionView.swift in Sources */,
+				A49CBB9F3A88F95FB5EDEEAD /* HomeView.swift in Sources */,
+				21045EDD8293DFD243F7AA3D /* InsightsView.swift in Sources */,
+				02E52ECBB900445A00A8A95E /* AuthenticationView.swift in Sources */,
+				855E222A46A7208ED1C078A4 /* BaselineIntroView.swift in Sources */,
+				C67DF8A2C0819C0F0B76E421 /* BiometricSetupView.swift in Sources */,
+				60FCD7D2A987B4384C448CA6 /* LegalDocumentView.swift in Sources */,
+				C4632430EF58DF42C6CBFABA /* OnboardingFlowView.swift in Sources */,
+				FC5040B69B9263B74EDA973B /* PasswordStrengthView.swift in Sources */,
+				A96954710D821B97E19114F8 /* PermissionSetupView.swift in Sources */,
+				1A97A6A22E08DB8D9F8C1E60 /* ScanFlowView.swift in Sources */,
+				0465F09C9422909EA2996172 /* SettingsView.swift in Sources */,
+				57B5644993A5EDD777A55D60 /* AppLockView.swift in Sources */,
+				3A373F5AE258C3273F8B97BF /* BootstrapView.swift in Sources */,
+				929B16A5DFED2DE8ADAEAD81 /* LaunchView.swift in Sources */,
+				6A68C736F47723FA573B9FA1 /* RootView.swift in Sources */,
+				5406924EB8F0E99C8E3B510F /* BiometricService.swift in Sources */,
+				C6305CC2851E0514DD4A5F6F /* AdaptiveCompanionEngine.swift in Sources */,
+				0E77D03BDCB79DACBDF2D16D /* BundledLlamaEngine.swift in Sources */,
+				60447BA4EAB8CF0A95736D8C /* LocalCompanionEngine.swift in Sources */,
+				2242BBC1B44062F204F4FDC2 /* HealthService.swift in Sources */,
+				F1C6F5861EF28D7828CA1D9F /* MentalHealthCore.swift in Sources */,
+				ABCD10000000000000000002 /* ModelRuntimeManifest.swift in Sources */,
+				9BE2A3DCF92B06A9DA31CA1A /* AccountAuthService.swift in Sources */,
+				BEB1EC57089516CE7B683621 /* LocalCredentialVault.swift in Sources */,
+				EC7E49121DC58E4307B56B7A /* PasswordKeyDerivation.swift in Sources */,
+				6DB012DD154095F7E51445BA /* PasswordStrength.swift in Sources */,
+				BB3647419CF393BAF9D4B350 /* EyeTrackingService.swift in Sources */,
+				F61CA7F9FB14ABA90459FAA4 /* ParkinsonVoiceScreening.swift in Sources */,
+				ABCD41000000000000000002 /* RespiratoryAcousticScreening.swift in Sources */,
+				ECE7768992FEABA6BF38FEA0 /* SensorAuthorizationService.swift in Sources */,
+				AB143B1F347A15AD8D9AA636 /* SileroVoiceActivityDetector.swift in Sources */,
+				5E66E4A662E1A62437A168BE /* VoiceCaptureService.swift in Sources */,
+				BB2595A70312EC8841477E58 /* SecureMetricsStore.swift in Sources */,
+				4E222916C43827017C262043 /* CognitiveSupportService.swift in Sources */,
+				959CC0108F291D16B453A491 /* Haptics.swift in Sources */,
+				419524E2E0E6FBFBF42ACF22 /* ScreenLightController.swift in Sources */,
+				891F1D6AA99CC8F6684F44B2 /* VentureJobPipeline.swift in Sources */,
+				ABCD30000000000000000002 /* SupabaseBackendSyncService.swift in Sources */,
+				ABCD31000000000000000002 /* SupabaseModelSyncBatchBuilder.swift in Sources */,
+				462386FBC6507F75F675934B /* VentureTheme.swift in Sources */,
+				780AFEF85F89D0DD22517546 /* VentureLanguage.swift in Sources */,
+				392812FB4D06B90B8EB99FF6 /* VentureExperienceView.swift in Sources */,
+				E62756B7CDE9620B145BFF75 /* VentureAccountView.swift in Sources */,
+				CA09B8468903F2CC67007055 /* VentureAssistantPage.swift in Sources */,
+				5B7FC66CF44593474182B777 /* VentureCarePage.swift in Sources */,
+				0313FA5184BD94FCCD8E1346 /* VentureSimpleScanView.swift in Sources */,
+				1EDCB7A4DA9A3984E173B4C6 /* VentureSpeechService.swift in Sources */,
+				4E5CBA1A746944A2144732B6 /* MediaPipeIrisTracker.swift in Sources */,
+				4D8826F44815F8223533BF66 /* VentureLiveVoiceDemoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		462C5DC20B3858A7C9928CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A8B209D4B6E11D799EE16A /* VentureCallingUITests.swift in Sources */,
+				CF8CC0D5760532656CB26D9A /* VentureExperienceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAE4AD98A14819D7867A877A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Venture;
+			target = C89A415A915AD32DC117275B /* Venture */;
+			targetProxy = 10C9D5B03D2D095396A47E60 /* PBXContainerItemProxy */;
+		};
+		C9731E02FCEFE66F2EDE9C93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Venture;
+			target = C89A415A915AD32DC117275B /* Venture */;
+			targetProxy = 53297960E51E73037C948940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A178079E2C8FAB8E85D0C8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.venture.brain-drift.uitests";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Venture;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		634B1E86D4F3964C17B0E1B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9QT25YK23;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.venture.brain-drift.tests";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Venture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Venture";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C8B657754C1067CCEDE9909 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.venture.brain-drift.uitests";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Venture;
+			};
+			name = Debug;
+		};
+		A0FC8D29C0EDBE294607AAE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A84E622CF4322577F47BD1B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K9QT25YK23;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.venture.brain-drift.tests";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Venture.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Venture";
+			};
+			name = Debug;
+		};
+		E64C784B3673EDAC4957BD60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Venture/Resources/Venture.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9QT25YK23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Venture/Resources/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Venture briefly uses the camera to extract eye metrics, then deletes the video.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Venture uses Face ID to protect your private cognitive metrics.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Venture reads recovery signals such as sleep and HRV to compare them with your personal baseline.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Venture does not write health data.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Venture briefly uses the microphone to extract voice metrics, then deletes the recording.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Venture recognizes a short reading prompt on device to measure speech timing and highlight your progress.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_VentureAuthBaseURL = "";
+				INFOPLIST_KEY_VentureEmailVerifierBaseURL = "";
+				INFOPLIST_KEY_VentureEmailVerifierProvider = reacher;
+				INFOPLIST_KEY_VentureFamilyControlsEnabled = NO;
+				INFOPLIST_KEY_VentureSupabaseAnonKey = "$(VENTURE_SUPABASE_ANON_KEY)";
+				INFOPLIST_KEY_VentureSupabaseURL = "$(VENTURE_SUPABASE_URL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
+					"$(inherited)",
+					"-lc++",
+					"-ObjC",
+					"-force_load",
+					"\"$(SRCROOT)/Vendor/MediaPipe/Common/frameworks/graph_libraries/libMediaPipeTasksCommon_device_graph.a\"",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = (
+					"$(inherited)",
+					"-lc++",
+					"-ObjC",
+					"-force_load",
+					"\"$(SRCROOT)/Vendor/MediaPipe/Common/frameworks/graph_libraries/libMediaPipeTasksCommon_simulator_graph.a\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.venture.brain-drift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VENTURE_AUTH_BASE_URL = "";
+				VENTURE_EMAIL_VERIFIER_BASE_URL = "";
+				VENTURE_EMAIL_VERIFIER_PROVIDER = reacher;
+				VENTURE_SUPABASE_ANON_KEY = "sb_publishable_nA5c9-Mhvi7Ov5HJbGI-8Q_sZojvnql";
+				VENTURE_SUPABASE_URL = "https://poutjcphymgsfsuklokx.supabase.co";
+			};
+			name = Debug;
+		};
+		F380FA2C9654BFE3BD7AD906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = Venture/Resources/Venture.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K9QT25YK23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Venture/Resources/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Venture briefly uses the camera to extract eye metrics, then deletes the video.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Venture uses Face ID to protect your private cognitive metrics.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Venture reads recovery signals such as sleep and HRV to compare them with your personal baseline.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Venture does not write health data.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Venture briefly uses the microphone to extract voice metrics, then deletes the recording.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Venture recognizes a short reading prompt on device to measure speech timing and highlight your progress.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_VentureAuthBaseURL = "";
+				INFOPLIST_KEY_VentureEmailVerifierBaseURL = "";
+				INFOPLIST_KEY_VentureEmailVerifierProvider = reacher;
+				INFOPLIST_KEY_VentureFamilyControlsEnabled = NO;
+				INFOPLIST_KEY_VentureSupabaseAnonKey = "$(VENTURE_SUPABASE_ANON_KEY)";
+				INFOPLIST_KEY_VentureSupabaseURL = "$(VENTURE_SUPABASE_URL)";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 0.1.0;
+				"OTHER_LDFLAGS[sdk=iphoneos*]" = (
+					"$(inherited)",
+					"-lc++",
+					"-ObjC",
+					"-force_load",
+					"\"$(SRCROOT)/Vendor/MediaPipe/Common/frameworks/graph_libraries/libMediaPipeTasksCommon_device_graph.a\"",
+				);
+				"OTHER_LDFLAGS[sdk=iphonesimulator*]" = (
+					"$(inherited)",
+					"-lc++",
+					"-ObjC",
+					"-force_load",
+					"\"$(SRCROOT)/Vendor/MediaPipe/Common/frameworks/graph_libraries/libMediaPipeTasksCommon_simulator_graph.a\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.venture.brain-drift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				VENTURE_AUTH_BASE_URL = "";
+				VENTURE_EMAIL_VERIFIER_BASE_URL = "";
+				VENTURE_EMAIL_VERIFIER_PROVIDER = reacher;
+				VENTURE_SUPABASE_ANON_KEY = "sb_publishable_nA5c9-Mhvi7Ov5HJbGI-8Q_sZojvnql";
+				VENTURE_SUPABASE_URL = "https://poutjcphymgsfsuklokx.supabase.co";
+			};
+			name = Release;
+		};
+		F9173729E3FDB30853479A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02C6F1A21FE109011C7D05CA /* Build configuration list for PBXNativeTarget "VentureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A178079E2C8FAB8E85D0C8C /* Release */,
+				8C8B657754C1067CCEDE9909 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1312B0B762BAE63D51092DCA /* Build configuration list for PBXNativeTarget "Venture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F380FA2C9654BFE3BD7AD906 /* Release */,
+				E64C784B3673EDAC4957BD60 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		143C8CE3990B064E2B9F82FF /* Build configuration list for PBXNativeTarget "VentureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634B1E86D4F3964C17B0E1B0 /* Release */,
+				A84E622CF4322577F47BD1B6 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618B3583729D92C764B9A179 /* Build configuration list for PBXProject "Venture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9173729E3FDB30853479A5E /* Debug */,
+				A0FC8D29C0EDBE294607AAE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		888345FB6542AE5C41E5F4DB /* XCLocalSwiftPackageReference "KokoroCoreML" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Vendor/KokoroCoreML;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2EBCECBEB074395BB70FD55E /* KokoroCoreML */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 888345FB6542AE5C41E5F4DB /* XCLocalSwiftPackageReference "KokoroCoreML" */;
+			productName = KokoroCoreML;
+		};
+		8EC057E496E705B717C2B6C1 /* KokoroCoreML */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 888345FB6542AE5C41E5F4DB /* XCLocalSwiftPackageReference "KokoroCoreML" */;
+			productName = KokoroCoreML;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CDD365C62E6A8EDC661AF827 /* Project object */;
+}

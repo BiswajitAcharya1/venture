@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>venture</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.venture.brain-drift.auth</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>venture</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>venture uses your location when you choose to find nearby hospitals. Automated clinic calls share your selected summary only when you opt in.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>venture briefly uses the camera to extract eye metrics and does not retain frames.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>venture uses Face ID to protect private measurements stored on this device.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>venture reads selected sleep, recovery, activity, blood pressure, and Apple Watch ECG records to compare them with your personal history.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>venture requests read access only and does not write records to Apple Health.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>venture captures voice for screening or on-device call-test dictation. Screening recordings are deleted and in-app dictation audio is not uploaded.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>venture uses on-device speech recognition to highlight prompt progress and extract speech timing.</string>
+	<key>VentureAuthBaseURL</key>
+	<string>$(VENTURE_AUTH_BASE_URL)</string>
+	<key>VentureEmailVerifierBaseURL</key>
+	<string>$(VENTURE_EMAIL_VERIFIER_BASE_URL)</string>
+	<key>VentureEmailVerifierProvider</key>
+	<string>$(VENTURE_EMAIL_VERIFIER_PROVIDER)</string>
+	<key>VentureFamilyControlsEnabled</key>
+	<false/>
+	<key>VentureSupabaseAnonKey</key>
+	<string>$(VENTURE_SUPABASE_ANON_KEY)</string>
+	<key>VentureSupabaseURL</key>
+	<string>$(VENTURE_SUPABASE_URL)</string>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict/>
+	</dict>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>

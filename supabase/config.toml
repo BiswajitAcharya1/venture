@@ -1,0 +1,26 @@
+project_id = "venture"
+
+[auth]
+enabled = true
+site_url = "venture://auth"
+additional_redirect_urls = ["venture://auth", "venture://auth/reset", "venture://auth/verified"]
+enable_signup = true
+minimum_password_length = 10
+password_requirements = "lower_upper_letters_digits_symbols"
+
+[auth.email]
+enable_signup = true
+double_confirm_changes = true
+enable_confirmations = true
+max_frequency = "60s"
+otp_length = 6
+otp_expiry = 3600
+
+[storage]
+enabled = true
+
+[storage.vector]
+enabled = false
+
+[functions.delete-account]
+verify_jwt = true

@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/DevDaring/Nova_Dear-Care",
+  "commit": "69e82bc4ded3489377fa8323c37a917d7c9c271b",
+  "authors": "Team DevDaring",
+  "license_declaration": "README.md: MIT License \u2014 All code is original work by Team DevDaring.",
+  "standalone_license_file_present": false,
+  "adapted_sources": [
+    "Code/aws_handler.py",
+    "Code/main.py",
+    "Code/config.py"
+  ],
+  "inspection": "Source read only; no upstream install/init scripts executed."
+}

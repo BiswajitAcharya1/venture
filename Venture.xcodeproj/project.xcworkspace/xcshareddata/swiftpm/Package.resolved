@@ -1,0 +1,33 @@
+{
+  "originHash" : "2ea2f6e22b236a21719c369910324fd0140cfffd432b38be5a1961206d700341",
+  "pins" : [
+    {
+      "identity" : "cbor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/edgeengineer/cbor.git",
+      "state" : {
+        "revision" : "a64323cc11eb8b4d7005dfd2feadacfd5f59f547",
+        "version" : "0.0.6"
+      }
+    },
+    {
+      "identity" : "swift-argument-parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-argument-parser.git",
+      "state" : {
+        "revision" : "6a52f3251125d74daf04fcbd5e6f08a75d074382",
+        "version" : "1.8.2"
+      }
+    },
+    {
+      "identity" : "swift-bart-g2p",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Jud/swift-bart-g2p.git",
+      "state" : {
+        "revision" : "1ed781e05fba7b4042212aecb6124a3aab83ce45",
+        "version" : "0.4.0"
+      }
+    }
+  ],
+  "version" : 3
+}

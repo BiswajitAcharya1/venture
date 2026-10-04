@@ -1,0 +1,2 @@
+*.gguf filter=lfs diff=lfs merge=lfs -text
+/Vendor/MediaPipe/Common/frameworks/graph_libraries/*.a filter=lfs diff=lfs merge=lfs -text
